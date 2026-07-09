@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6, span {
+h1, h2, h3, h4, h5, h6 {
     color: #242424;
     text-align: center;
     line-height: 1.25;
@@ -83,8 +83,8 @@ li {
     padding: 0 12px;
 }
 
-.text-purple {
-    color: #6030b1;
+.text--blue {
+    color: rgb(31, 31, 196);
 }
 f
 section:nth-child(even) {
@@ -121,19 +121,19 @@ nav {
 
 .nav__link--anchor-primary {
     color: white;
-    background-color: #6063b1;
+    background-color: rgb(31, 31, 196);
     padding: 8px 20px;
     border-radius: 50px;
     transition: all 300ms ease;
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #5d3eff;
+    background-color: rgb(31, 31, 196);
 }
 
 .personal__logo {
     font-size: 24px;
-    color: #6030b1;
+    color: rgb(31, 31, 196);
     margin: 0 12px;
     font-weight: bold;
 }
@@ -353,7 +353,7 @@ padding-top: 8px;
     opacity: 0.7;
 }
 
-.project:hover .project_img {
+.project:hover .project__img {
     transform: scale(1.07);
     filter: blur(5px);
 }
@@ -367,7 +367,7 @@ padding-top: 8px;
     padding-top: 40px;
 }
 
-.project_description {
+.project__description {
     position: absolute;
     top: 50%;
     left: 90px;
@@ -432,7 +432,7 @@ footer {
     color: #fff;
 }
 
-.footer_logo--popper {
+.footer__logo--popper {
     color: #fff;
     position: absolute;
     top: 30px;
